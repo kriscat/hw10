@@ -1,0 +1,161 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            p,
+            input,
+            button,
+            a {
+                font-family: 'Raleway', sans-serif;
+            }
+            
+            .top,
+            .end {
+                background-color: rgb(29, 24, 24);
+                width: 100%;
+                height: auto;
+            }
+            
+            .top_logo {
+                border-radius: 15px;
+                margin-left: 70px;
+                margin-top: 20px;
+            }
+            
+            .top {
+                display: flex;
+            }
+            
+            .top_logo:hover {
+                transform: rotate(180deg);
+                box-shadow: 2px 15px 25px rgb(226, 218, 218);
+            }
+            
+            .top_txt {
+                font-size: 50px;
+                color: rgb(255, 255, 255);
+                margin-left: 20%;
+                padding-top: 15px;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                width: 100%;
+            }
+            
+            .top_txt:hover.top_txt::after {
+                content: "Веришь мне? Зачем?";
+                color: rgb(245, 1, 1);
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                opacity: 0.3;
+                margin-left: 20px;
+            }
+            
+            .top_txt2 {
+                font-size: 10px;
+                color: rgb(255, 255, 255);
+                margin-left: 20%;
+                font-family: 'Raleway', sans-serif;
+                padding-top: 5px;
+            }
+            
+            .main {
+                display: flex;
+            }
+            
+            .logform,
+            .music_txt {
+                color: rgb(255, 255, 255);
+                margin: 10px;
+            }
+            
+            .click,
+            input {
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                border: 1px solid wheat;
+                margin: 2px;
+            }
+            
+            .click:hover,
+            input:hover,
+            .login_reg:hover {
+                background-color: rgb(99, 90, 90);
+                cursor: pointer;
+            }
+            
+            .login {
+                width: 17%;
+                height: 550px;
+                background-color: rgb(29, 24, 24);
+                padding: 3px;
+            }
+            
+            .form {
+                margin-top: 50px;
+                text-align: center;
+            }
+            
+            .login_reg {
+                background-color: rgb(255, 255, 255);
+                border: 1px solid wheat;
+                color: rgb(0, 0, 0);
+                font-size: 10px;
+            }
+            
+            .music {
+                padding-top: 250px;
+            }
+            
+            audio {
+                width: 90%;
+                margin: 5px;
+            }
+            
+            .comix_read::before,
+            .video_txt::before {
+                color: #502542;
+                margin-left: -1.5rem;
+                margin-right: 1rem;
+                content: "❯❯";
+            }
+            
+            .comix_read:hover.comix_read::before,
+            .video_txt:hover.video_txt::before {
+                color: rgb(255, 4, 4);
+                margin-left: 3rem;
+                margin-right: 1rem;
+                content: "❯❯";
+            }
+            
+            .video {
+                text-align: center;
+            }
+            
+            .end1 {
+                font-size: 10px;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                padding: 3px;
+            }
+            
+            .end,
+            .videos,
+            .container_comix {
+                text-align: center;
+            }
+            
+            .videos {
+                width: 25%;
+                height: 550px;
+                background-color: rgb(29, 24, 24);
+            }
+            
+            .videos_txt {
+                font-size: 20px;
+                color: rgb(255, 255, 255);
+                font-family: 'Raleway', sans-serif;
+                padding-top: 5px;
+                margin: 5px;
+            }
